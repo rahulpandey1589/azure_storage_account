@@ -9,7 +9,7 @@ namespace azure_storage.filewatcher
         {
             Console.WriteLine("Hello World!");
 
-            var fileWatcher = new CSVFileWatcher();
+            var fileWatcher = new CsvFileWatcher();
             fileWatcher.WatchFileChangesAsync(@"E:\\Watcher");
 
 

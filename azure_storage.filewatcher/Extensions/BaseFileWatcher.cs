@@ -29,7 +29,7 @@ namespace azure_storage.filewatcher.Extensions
 
         }
 
-        public abstract void OnCreated(object sender, FileSystemEventArgs e);
+        protected abstract void OnCreated(object sender, FileSystemEventArgs e);
        
     }
 }

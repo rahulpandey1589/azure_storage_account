@@ -4,7 +4,7 @@ using azure_storage.core.BlobStorage;
 
 namespace azure_storage.filewatcher.Extensions
 {
-    public class CSVFileWatcher : BaseFileWatcher
+    public class CsvFileWatcher : BaseFileWatcher
     {
         public override void WatchFileChangesAsync(string directoryPath)
         {
@@ -13,7 +13,7 @@ namespace azure_storage.filewatcher.Extensions
             base.WatchFileChangesAsync(directoryPath);
         }
 
-        public override void OnCreated(
+        protected override void OnCreated(
             object sender,
             FileSystemEventArgs e)
         {
