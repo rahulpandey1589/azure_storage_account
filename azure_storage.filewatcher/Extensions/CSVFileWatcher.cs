@@ -22,7 +22,8 @@ namespace azure_storage.filewatcher.Extensions
             BlobOperations operations
                 = new BlobOperations();
 
-            operations.UploadBlobAsync("new-container", "container-blobs", e.FullPath).ConfigureAwait(false);
+            operations.UploadBlobAsync(
+                "new-container", "container-blobs", e.FullPath).ConfigureAwait(false);
 
             Console.WriteLine(value);
 
