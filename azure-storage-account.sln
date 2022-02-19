@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "azure_storage.core", "azure
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "azure_storage.clientapplication", "azure_storage.clientapplication\azure_storage.clientapplication.csproj", "{1DB4CEF2-FCFC-43C0-A501-994406BD4DEB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "azure_storage.filewatcher", "azure_storage.filewatcher\azure_storage.filewatcher.csproj", "{159E1B82-5568-41B9-8253-9DA8484E886D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1DB4CEF2-FCFC-43C0-A501-994406BD4DEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DB4CEF2-FCFC-43C0-A501-994406BD4DEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DB4CEF2-FCFC-43C0-A501-994406BD4DEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{159E1B82-5568-41B9-8253-9DA8484E886D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{159E1B82-5568-41B9-8253-9DA8484E886D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{159E1B82-5568-41B9-8253-9DA8484E886D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{159E1B82-5568-41B9-8253-9DA8484E886D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

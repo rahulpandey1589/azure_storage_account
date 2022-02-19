@@ -1,0 +1,20 @@
+﻿using azure_storage.filewatcher.Extensions;
+using System;
+
+namespace azure_storage.filewatcher
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World!");
+
+            var fileWatcher = new CSVFileWatcher();
+            fileWatcher.WatchFileChangesAsync(@"E:\\Watcher");
+
+
+            Console.WriteLine("Press enter to exit.");
+            Console.ReadLine();
+        }
+    }
+}

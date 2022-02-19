@@ -38,9 +38,7 @@ namespace azure_storage.core.BlobStorage
 
             var blobClient = blobContainerClient.GetBlobClient(completePath);
 
-            var localPath = "E:\\" + fileName;
-
-            await blobClient.UploadAsync(localPath);
+            await blobClient.UploadAsync(fileName);
         }
 
 

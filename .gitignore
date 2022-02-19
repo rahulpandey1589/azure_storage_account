@@ -6,3 +6,6 @@
 /azure_storage.clientapplication/obj
 /azure_storage.core/bin/Debug/netstandard2.1
 /azure_storage.core/obj
+
+bin/
+obj/
