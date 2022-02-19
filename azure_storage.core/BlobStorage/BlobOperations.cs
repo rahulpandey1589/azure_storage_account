@@ -45,10 +45,7 @@ namespace azure_storage.core.BlobStorage
             }
         }
 
-        private BlobServiceClient CreateBlobServiceClient()
-        {
-            return new BlobServiceClient(connectionString);
-        }
+        private BlobServiceClient CreateBlobServiceClient() => new BlobServiceClient(connectionString);
 
         private BlobContainerClient CreateBlobContainerClient(
             BlobServiceClient blobServiceClient,
