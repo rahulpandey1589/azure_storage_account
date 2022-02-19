@@ -39,6 +39,11 @@ namespace azure_storage.core.BlobStorage
             var blobClient = blobContainerClient.GetBlobClient(completePath);
 
             await blobClient.UploadAsync(fileName);
+
+            if (File.Exists(fileName))
+            {
+                File.Delete(fileName);
+            }
         }
 
 
