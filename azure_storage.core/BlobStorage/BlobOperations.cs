@@ -7,7 +7,6 @@ namespace azure_storage.core.BlobStorage
 {
     public class BlobOperations
     {
-
         private string connectionString
              = Environment.GetEnvironmentVariable("AZURE_STORAGE_CONNECTION_STRING");
 
@@ -45,7 +44,6 @@ namespace azure_storage.core.BlobStorage
                 File.Delete(fileName);
             }
         }
-
 
         private BlobServiceClient CreateBlobServiceClient()
         {
