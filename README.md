@@ -24,7 +24,7 @@ The `azure_storage.core` library is the core library which consists of all the c
 
 ## Key Points
 
-* The `azure_storage.core`is based on `NetStandard2.1` so that is could be integrated with .Net Framework and 
+* The `azure_storage.core` is based on `NetStandard2.1` so that is could be integrated with .Net Framework and 
 .Net Core based app.
 * The application is expecting its connection string to azure storage account from environment variable. Before running the application, please set connection string in environment variable globally using following command
 ```
