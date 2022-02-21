@@ -7,7 +7,6 @@ This application is capable of pushing files into Azure Storage Account(Blob Sto
 * Azure Storage General V2 Account
 
 ## Dependencies
-<hr>
 
 | Package                	| Version 	|
 |------------------------	|---------	|
@@ -24,7 +23,6 @@ The solution consists of three project files.
 The `azure_storage.core` library is the core library which consists of all the core logic of interaction with azure blob storage.
 
 ## Key Points
-<hr>
 
 * The `azure_storage.core`is based on `NetStandard2.1` so that is could be integrated with .Net Framework and 
 .Net Core based app.
